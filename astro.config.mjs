@@ -5,4 +5,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [mdx(), tailwind()],
+  site: 'https://fiskejonas.github.io',
+  base: '/production_portfolio3',
 });
