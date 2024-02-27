@@ -6,4 +6,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [mdx(), tailwind()],
   site: 'https://fiskejonas.github.io',
+  base: '/production_portfolio3/',
 });
